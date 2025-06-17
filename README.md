@@ -4,7 +4,7 @@ This project demonstrates the use of the **K-Nearest Neighbors (KNN)** algorithm
 
 ---
 
-## 📌 Project Objective
+## Project Objective
 
 Build a predictive model that determines whether a customer will make a purchase or not, based on:
 - Age
@@ -12,7 +12,7 @@ Build a predictive model that determines whether a customer will make a purchase
 
 ---
 
-## 🧪 Dataset
+## Dataset
 
 - **Source**: `Social_Network_Ads.csv`
 - **Attributes**:
@@ -24,7 +24,7 @@ Build a predictive model that determines whether a customer will make a purchase
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - Python
 - Pandas, NumPy
@@ -33,7 +33,7 @@ Build a predictive model that determines whether a customer will make a purchase
 
 ---
 
-## 🧠 Algorithm: KNN
+## Algorithm: KNN
 
 **Steps followed:**
 1. Select optimal value for `k` (k=5 used).
@@ -43,12 +43,12 @@ Build a predictive model that determines whether a customer will make a purchase
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 - **Train-Test Split**: 80:20
 - **Scaling**: Performed with `StandardScaler`
 - **Model**: `KNeighborsClassifier` with `metric='minkowski'`, `p=2`
 
-### ✅ Results:
+### Results:
 
 - **Accuracy**: 93.75%
